@@ -11,10 +11,14 @@ p {
   line-height: 150%;
 }
 
+.spacer {
+  height: 50px;
+}
+
 #page_container {
   width: 850px;
   height: 1100;
-  margin: 50 auto;
+  margin: 0 auto;
   background: #FFF;
 }
 
