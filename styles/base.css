@@ -5,8 +5,15 @@ body {
   background: #555;
 }
 
+p {
+  margin: 0em;
+  margin-top: .2em;
+  line-height: 150%;
+}
+
 #page_container {
-  width: 768px;
+  width: 850px;
+  height: 1100;
   margin: 50 auto;
   background: #FFF;
 }
@@ -22,26 +29,34 @@ body {
 
 .subsection_container {
   padding: 5 0 15 0;
-  background: #CCC; /*test code*/
+  /*background: #CCC; /*test code*/
 }
 
 .primary_container {
   display: inline-block;
-  min-width: 50%;
+  min-width: 60%;
 }
 
 .secondary_container {
   display: inline-block;
-  max-width: 50%;
+  min-width: 40%;
   text-align: right;
   align: right;
-  background: #FFFF00;
+  /*background: #FFFF00; /*test code*/
 }
+
+.talking_points {
+  padding-left: 0.5em;
+  margin-top: 0.2em;
+  margin-left: 0.5em;
+  line-height: 150%;
+}
+
 
 #title_container {
   display: inline-block;
   vertical-align: top;
-  min-width: 50%;
+  min-width: 55%;
 }
 
 #contact_info_container {
@@ -53,6 +68,7 @@ body {
     -webkit-column-gap: 30px;
        -moz-column-gap: 30px;
             column-gap: 30px;
+  /*background: #FFFF00; /*test code*/
 }
 
 #title {
@@ -101,15 +117,15 @@ body {
   display: inline-block;
   vertical-align: top;
   max-width: 30%;
-  background: #BBB; /*test code*/
+  /*background: #BBB; /*test code*/
 }
 
 .subsection_container#summary {
   display: inline-block;
   vertical-align: top;
   margin-left: 35;
-  max-width: 64.63%;                  /*THIS IS NOT THE MOST OPTIMAL WAY OF SOLVING FOR THIS*/
-  background: #AAA; /*test code*/
+  max-width: 65%;                  /*THIS IS NOT THE MOST OPTIMAL WAY OF SOLVING FOR THIS*/
+  /*background: #AAA; /*test code*/
 }
 
 .emphasized {
